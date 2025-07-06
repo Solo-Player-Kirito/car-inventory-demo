@@ -13,7 +13,7 @@ RUN pnpm install
 COPY . .
 
 # Use pnpm to run the build script
-RUN pnpm run build:stage-env
+RUN pnpm run build
 
 EXPOSE 3000
  
